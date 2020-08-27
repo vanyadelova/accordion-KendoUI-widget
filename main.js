@@ -19,24 +19,6 @@ $(document).ready(function () {
           },
           panelBar.select()
         );
-    },
-    before = function (e) {
-      if (e.type != "keypress" || kendo.keys.ENTER == e.keyCode)
-        panelBar.insertBefore(
-          {
-            text: $("#beforeText").val(),
-          },
-          panelBar.select()
-        );
-    },
-    after = function (e) {
-      if (e.type != "keypress" || kendo.keys.ENTER == e.keyCode)
-        panelBar.insertAfter(
-          {
-            text: $("#afterText").val(),
-          },
-          panelBar.select()
-        );
     };
 
   $(".selectItem").click(select);
