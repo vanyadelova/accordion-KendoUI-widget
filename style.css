@@ -1,0 +1,17 @@
+.box {
+  width: 250px;
+  margin-bottom: -20px;
+}
+
+.box .options {
+  margin-bottom: 20px;
+}
+
+.box .textbox {
+  width: 80px;
+}
+
+html {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }

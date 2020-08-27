@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+     <link rel="stylesheet" href="style.css">
+    <title>Accordion-widget</title>
+    <link
+      rel="stylesheet"
+      href="https://kendo.cdn.telerik.com/2020.2.617/styles/kendo.default-v2.min.css"
+    />
+    <script src="https://kendo.cdn.telerik.com/2020.2.617/js/jquery.min.js"></script>
+
+    <script src="https://kendo.cdn.telerik.com/2020.2.617/js/kendo.all.min.js"></script>
+   
+  </head>
+  <body>
+    <div id="container">
+      <div class="component">
+        <div class="box">
+          <h4>Accordion-widget</h4>
+          <ul class="options">
+            <li>
+              <input type="text" value="0" id="selectIndex" class="textbox" />
+              <button class="selectItem">Select</button>
+            </li>
+            <li>
+              <button class="triggerItem">Expand/Collapse</button>
+            </li>
+          </ul>
+          
+        </div>
+        <br>
+        <div class="box">
+          <h4>Add / Remove</h4>
+          <ul class="options">
+            <li>
+              <button class="removeItem">Remove from list</button>
+            </li>
+            <li>
+              <input
+                type="text"
+                value="Item"
+                id="appendText"
+                class="textbox"
+              />
+              <button class="appendItem">Add to list</button>
+            </li>
+          </ul>
+        </div>
+     
+      </div>
+
+      <div class="demo-section">
+        <ul id="panelbar">
+          <li class="active">
+            Athletics
+            <ul>
+              <li>Marathon</li>
+              <li>Javelin Throw</li>
+              <li>Discus Throw</li>
+              <li>High Jump</li>
+              <li>Long Jump</li>
+            </ul>
+          </li>
+          <li>
+            Water Games
+            <ul>
+              <li>Diving</li>
+              <li>Swimming</li>
+              <li>Marathon Swimming</li>
+              <li>Synchronized Swimming</li>
+              <li>Water Polo</li>
+            </ul>
+          </li>
+          <li>
+            Racing
+            <ul>
+              <li>Cycling BMX</li>
+              <li>Cycling Mountain Bike</li>
+              <li>Cycle Racing</li>
+              <li>Sailing</li>
+              <li>Rowing</li>
+            </ul>
+          </li>
+          <li>
+            Indoor Games
+            <ul>
+              <li>Table Tennis</li>
+              <li> Badminton</li>
+              <li>Volleyball</li>
+              <li>Boxing</li>
+              <li>Swimming</li>
+            </ul>
+          </li>
+          <li>
+            Climbing
+            <ul>
+              <li>Bouldering</li>
+              <li>Alpine climbing</li>
+              <li>Top Rope Climbing</li>
+              <li>Free Solo Climbing</li>
+              <li>Mountaineering</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    
+  </body>
+</html>
